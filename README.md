@@ -25,11 +25,12 @@ This is a heavily modified version of the original InferSNPE and InferLITE creat
 
 - Android device with ARM64 architecture (arm64-v8a)
 - Android 8.0 (API 26) or higher
-- Qualcomm SNPE SDK (see below)
+- Qualcomm SNPE SDK (included in the repo)
 
 ## Setup
-
-1. **Trained Models**: Place your `.dlc` model files in `app/src/main/assets/` if you wish to add any.
+1. **SNPE SDK**: Download the `snpe-release.aar` from the Qualcomm Developer Network and place it in `app/src/main/libs/`.
+   - Example: `<SNPE>/2.34.0.250424/android/snpe-release.aar`
+2. **Trained Models**: Place your `.dlc` model files in `app/src/main/assets/` if you wish to add any.
 
 ## Build Instructions
 
