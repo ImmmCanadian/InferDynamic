@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NoahSNPE</string>
+    <string name="btn_cpu">CPU</string>
+    <string name="btn_gpu">GPU</string>
+    <string name="btn_dsp">DSP</string>
+    <string name="model_selector">Select Model</string>
+    <string name="model_selector_error">This model is not supported by this mode</string>
+    <string name="loading_model">Loading Model</string>
+    <string name="fps_text">FPS: %.0f</string>
+    <string name="overlay_image_content_description">This is the annotated image</string>
+    <string name="button_camera_switch_description">Switch camera</string>
+    <string name="threshold_text">Threshold: %.2f</string>
+    <string-array name="model_array">
+        <item>GRU INT8 (DLC)</item>
+        <item>TCN INT8 (DLC)</item>
+        <item>TCN FP32 (DLC)</item>
+        <item>TCN (TFLite)</item>
+        <item>GRU (TFLite)</item>
+        <item>LSTM (TFLite)</item>
+    </string-array>
+</resources>
